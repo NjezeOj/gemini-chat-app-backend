@@ -1,0 +1,46 @@
+[
+    {
+      "question": "How do I upload drawings for estimation?",
+      "answer": "You can upload your drawings by dragging and dropping PNG, JPG, SVG, or PDF files into the upload area, or by clicking the browse button. Maximum 10 files per batch are allowed."
+    },
+    {
+      "question": "What file formats are supported?",
+      "answer": "We currently support PNG, JPG, SVG, and PDF files. All other formats will be automatically skipped during upload."
+    },
+    {
+      "question": "How accurate is the AI estimation?",
+      "answer": "Our AI estimation typically achieves 85-95% accuracy on standard construction drawings. The accuracy depends on the clarity and completeness of the uploaded drawings."
+    },
+    {
+      "question": "Can I edit the generated estimate?",
+      "answer": "Yes, after the estimation is generated, you can manually edit quantities, unit rates, materials, and add or remove line items as needed."
+    },
+    {
+      "question": "How long does the estimation process take?",
+      "answer": "Most estimations are completed within 15-45 seconds, depending on the number and complexity of the uploaded drawings."
+    },
+    {
+      "question": "Is my data secure?",
+      "answer": "Yes. All uploaded files are encrypted in transit and at rest. We do not share your drawings or project data with any third parties."
+    },
+    {
+      "question": "Can I export the estimate to Excel?",
+      "answer": "Yes, you can export the full estimate with line items, quantities, and costs to Excel (.xlsx) or PDF format."
+    },
+    {
+      "question": "What if the AI misses some items?",
+      "answer": "You can manually add missing items. The system also shows warnings when it detects potential missing or unclear elements in the drawings."
+    },
+    {
+      "question": "Do you support multiple currencies?",
+      "answer": "Currently we primarily work in Euros (€). Support for USD, GBP, and other currencies is planned for future releases."
+    },
+    {
+      "question": "How do I delete my uploaded files?",
+      "answer": "You can remove individual files by clicking the delete icon next to each file. All files are automatically deleted from our servers after processing."
+    },
+    {
+      "question": "Can multiple team members work on the same project?",
+      "answer": "Team collaboration feature is currently in development. At the moment each account works independently."
+    }
+]
