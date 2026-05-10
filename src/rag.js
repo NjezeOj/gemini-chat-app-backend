@@ -20,10 +20,10 @@ class RagProvider{
         return data;
     }
 
-    prepareRagProompt(query, queryVector, faqVectors){
+    prepareRagPrompt(query, queryVector, faqVectors){
         const ranked = faqVectors.map(item => ({
             ...item,
-            score: cosineSimilarity(queryVector, faq.vector)
+            score: cosineSimilarity(queryVector, item.vector)
         }))
         .sort((a,b) => b.score - a.score)
         .slice(0,2); // get top 2 most relevant FAQs
